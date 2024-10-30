@@ -1,0 +1,26 @@
+* {
+    font-family: "Comic Sans MS", system-ui, sans-serif;
+}
+
+body {
+	padding: 0rem 1rem 0rem 1rem;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main div {
+    flex: 1;
+    width: 100%;
+    max-width: 110ch;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-top: 1rem;
+}

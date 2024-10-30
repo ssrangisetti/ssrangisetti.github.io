@@ -1,0 +1,18 @@
+languageCode = 'en-us'
+title = 'Sai Sandeep'
+disableKinds = ['taxonomy', 'term']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      autoHeadingID = false
+
+[outputs]
+  home = ['html']
+  section = ['html', 'rss']
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "rss"
+
